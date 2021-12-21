@@ -1,0 +1,192 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\Aleksandra Miteva\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'install',
+0 verbose cli   '--no-audit',
+0 verbose cli   '--save',
+0 verbose cli   '--save-exact',
+0 verbose cli   '--loglevel',
+0 verbose cli   'error',
+0 verbose cli   'react',
+0 verbose cli   'react-dom',
+0 verbose cli   'react-scripts',
+0 verbose cli   'cra-template'
+0 verbose cli ]
+1 info using npm@8.3.0
+2 info using node@v15.14.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\Aleksandra Miteva\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 9ms
+6 timing config:load:builtin Completed in 9ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:C:\Users\Aleksandra Miteva\Desktop\CMS_Projekt_Miteva_Galina\frontend\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:C:\Users\Aleksandra Miteva\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\Aleksandra Miteva\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 0ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 19ms
+19 timing npm:load:configload Completed in 19ms
+20 timing npm:load:setTitle Completed in 1ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:display Completed in 5ms
+23 verbose logfile C:\Users\Aleksandra Miteva\Desktop\CMS_Projekt_Miteva_Galina\tmpnodejsnpm-cache\_logs\2021-12-21T18_57_06_985Z-debug-0.log
+24 timing npm:load:logFile Completed in 7ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 34ms
+28 timing arborist:ctor Completed in 1ms
+29 timing arborist:ctor Completed in 0ms
+30 timing idealTree:init Completed in 12ms
+31 timing idealTree:userRequests Completed in 3ms
+32 silly idealTree buildDeps
+33 silly fetch manifest react@*
+34 http fetch GET 200 https://registry.npmjs.org/react 32ms (cache hit)
+35 silly fetch manifest react-dom@*
+36 http fetch GET 200 https://registry.npmjs.org/react-dom 12ms (cache hit)
+37 silly fetch manifest react-scripts@*
+38 http fetch GET 200 https://registry.npmjs.org/react-scripts 418ms (cache miss)
+39 silly fetch manifest typescript@^3.2.1 || ^4
+40 http fetch GET 200 https://registry.npmjs.org/typescript 220ms (cache revalidated)
+41 silly fetch manifest cra-template@*
+42 http fetch GET 200 https://registry.npmjs.org/cra-template 159ms (cache miss)
+43 silly placeDep ROOT cra-template@1.1.3 OK for: frontend@0.1.0 want: *
+44 silly placeDep ROOT react@17.0.2 OK for: frontend@0.1.0 want: *
+45 silly placeDep ROOT react-dom@17.0.2 OK for: frontend@0.1.0 want: *
+46 silly placeDep ROOT react-scripts@5.0.0 OK for: frontend@0.1.0 want: *
+47 silly fetch manifest loose-envify@^1.1.0
+48 silly fetch manifest object-assign@^4.1.1
+49 silly fetch manifest scheduler@^0.20.2
+50 silly fetch manifest @babel/core@^7.16.0
+51 silly fetch manifest @pmmmwh/react-refresh-webpack-plugin@^0.5.3
+52 silly fetch manifest @svgr/webpack@^5.5.0
+53 silly fetch manifest babel-jest@^27.4.2
+54 silly fetch manifest babel-loader@^8.2.3
+55 silly fetch manifest babel-plugin-named-asset-import@^0.3.8
+56 silly fetch manifest babel-preset-react-app@^10.0.1
+57 silly fetch manifest bfj@^7.0.2
+58 silly fetch manifest browserslist@^4.18.1
+59 silly fetch manifest camelcase@^6.2.1
+60 silly fetch manifest case-sensitive-paths-webpack-plugin@^2.4.0
+61 silly fetch manifest css-loader@^6.5.1
+62 silly fetch manifest css-minimizer-webpack-plugin@^3.2.0
+63 silly fetch manifest dotenv@^10.0.0
+64 silly fetch manifest dotenv-expand@^5.1.0
+65 silly fetch manifest eslint@^8.3.0
+66 silly fetch manifest eslint-config-react-app@^7.0.0
+67 silly fetch manifest eslint-webpack-plugin@^3.1.1
+68 silly fetch manifest file-loader@^6.2.0
+69 silly fetch manifest fs-extra@^10.0.0
+70 silly fetch manifest html-webpack-plugin@^5.5.0
+71 silly fetch manifest identity-obj-proxy@^3.0.0
+72 silly fetch manifest jest@^27.4.3
+73 silly fetch manifest jest-resolve@^27.4.2
+74 silly fetch manifest jest-watch-typeahead@^1.0.0
+75 silly fetch manifest mini-css-extract-plugin@^2.4.5
+76 silly fetch manifest postcss@^8.4.4
+77 silly fetch manifest postcss-flexbugs-fixes@^5.0.2
+78 silly fetch manifest postcss-loader@^6.2.1
+79 silly fetch manifest postcss-normalize@^10.0.1
+80 silly fetch manifest postcss-preset-env@^7.0.1
+81 silly fetch manifest prompts@^2.4.2
+82 silly fetch manifest react-app-polyfill@^3.0.0
+83 silly fetch manifest react-dev-utils@^12.0.0
+84 silly fetch manifest react-refresh@^0.11.0
+85 silly fetch manifest resolve@^1.20.0
+86 silly fetch manifest resolve-url-loader@^4.0.0
+87 silly fetch manifest sass-loader@^12.3.0
+88 silly fetch manifest semver@^7.3.5
+89 silly fetch manifest source-map-loader@^3.0.0
+90 silly fetch manifest style-loader@^3.3.1
+91 silly fetch manifest tailwindcss@^3.0.2
+92 silly fetch manifest terser-webpack-plugin@^5.2.5
+93 silly fetch manifest webpack@^5.64.4
+94 silly fetch manifest webpack-dev-server@^4.6.0
+95 silly fetch manifest webpack-manifest-plugin@^4.0.2
+96 silly fetch manifest workbox-webpack-plugin@^6.4.1
+97 silly fetch manifest fsevents@^2.3.2
+98 http fetch GET 200 https://registry.npmjs.org/object-assign 210ms (cache hit)
+99 http fetch GET 200 https://registry.npmjs.org/loose-envify 214ms (cache hit)
+100 http fetch GET 200 https://registry.npmjs.org/scheduler 214ms (cache hit)
+101 http fetch GET 200 https://registry.npmjs.org/@pmmmwh%2freact-refresh-webpack-plugin 242ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/jest-watch-typeahead 285ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/dotenv-expand 344ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/babel-plugin-named-asset-import 394ms (cache miss)
+105 http fetch GET 200 https://registry.npmjs.org/css-minimizer-webpack-plugin 406ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/eslint-config-react-app 425ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/postcss-flexbugs-fixes 467ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/identity-obj-proxy 473ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/babel-preset-react-app 533ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/eslint-webpack-plugin 530ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/@svgr%2fwebpack 642ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/babel-jest 675ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/postcss-loader 680ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/postcss-normalize 730ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/bfj 751ms (cache miss)
+116 http fetch GET 200 https://registry.npmjs.org/case-sensitive-paths-webpack-plugin 753ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/prompts 738ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/postcss-preset-env 800ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/react-app-polyfill 910ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/resolve-url-loader 1363ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/source-map-loader 1382ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/sass-loader 1439ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/webpack-manifest-plugin 1766ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/camelcase 1828ms (cache revalidated)
+125 http fetch GET 200 https://registry.npmjs.org/babel-loader 1838ms (cache revalidated)
+126 http fetch GET 200 https://registry.npmjs.org/@babel%2fcore 1847ms (cache revalidated)
+127 http fetch GET 200 https://registry.npmjs.org/react-dev-utils 1845ms (cache miss)
+128 http fetch GET 200 https://registry.npmjs.org/css-loader 1872ms (cache revalidated)
+129 http fetch GET 200 https://registry.npmjs.org/dotenv 2038ms (cache revalidated)
+130 http fetch GET 200 https://registry.npmjs.org/file-loader 2035ms (cache revalidated)
+131 http fetch GET 200 https://registry.npmjs.org/resolve 2280ms (cache revalidated)
+132 http fetch GET 200 https://registry.npmjs.org/workbox-webpack-plugin 2752ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/semver 2857ms (cache revalidated)
+134 http fetch GET 200 https://registry.npmjs.org/html-webpack-plugin 2886ms (cache revalidated)
+135 http fetch GET 200 https://registry.npmjs.org/fs-extra 2888ms (cache revalidated)
+136 http fetch GET 200 https://registry.npmjs.org/postcss 2890ms (cache revalidated)
+137 http fetch GET 200 https://registry.npmjs.org/style-loader 2882ms (cache revalidated)
+138 http fetch GET 200 https://registry.npmjs.org/browserslist 2913ms (cache revalidated)
+139 http fetch GET 200 https://registry.npmjs.org/react-refresh 3377ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/jest-resolve 3412ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/eslint 3421ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/mini-css-extract-plugin 3427ms (cache revalidated)
+143 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server 3413ms (cache revalidated)
+144 http fetch GET 200 https://registry.npmjs.org/webpack 3425ms (cache revalidated)
+145 http fetch GET 200 https://registry.npmjs.org/terser-webpack-plugin 3443ms (cache revalidated)
+146 http fetch GET 200 https://registry.npmjs.org/fsevents 3800ms (cache revalidated)
+147 http fetch GET 200 https://registry.npmjs.org/tailwindcss 5121ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/jest 5145ms (cache miss)
+149 timing idealTree:#root Completed in 6087ms
+150 timing idealTree:node_modules/cra-template Completed in 0ms
+151 silly placeDep ROOT loose-envify@1.4.0 OK for: react@17.0.2 want: ^1.1.0
+152 silly placeDep ROOT object-assign@4.1.1 OK for: react@17.0.2 want: ^4.1.1
+153 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+154 http fetch GET 200 https://registry.npmjs.org/js-tokens 8ms (cache hit)
+155 timing idealTree:node_modules/react Completed in 13ms
+156 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+157 timing idealTree:node_modules/loose-envify Completed in 1ms
+158 timing idealTree:node_modules/js-tokens Completed in 0ms
+159 timing idealTree:node_modules/object-assign Completed in 0ms
+160 silly placeDep ROOT scheduler@0.20.2 OK for: react-dom@17.0.2 want: ^0.20.2
+161 timing idealTree:node_modules/react-dom Completed in 2ms
+162 silly fetch manifest @types/webpack@4.x || 5.x
+163 http fetch GET 200 https://registry.npmjs.org/@types%2fwebpack 1868ms (cache miss)
+164 silly fetch manifest sockjs-client@^1.4.0
+165 http fetch GET 200 https://registry.npmjs.org/sockjs-client 310ms (cache miss)
+166 silly fetch manifest type-fest@>=0.17.0 <3.0.0
+167 http fetch GET 200 https://registry.npmjs.org/type-fest 119ms (cache revalidated)
+168 silly fetch manifest webpack-hot-middleware@2.x
+169 http fetch GET 200 https://registry.npmjs.org/webpack-hot-middleware 390ms (cache miss)
+170 silly fetch manifest webpack-plugin-serve@0.x || 1.x
+171 http fetch GET 200 https://registry.npmjs.org/webpack-plugin-serve 1196ms (cache miss)
+172 silly fetch manifest node-notifier@^8.0.1 || ^9.0.0 || ^10.0.0
+173 http fetch GET 200 https://registry.npmjs.org/node-notifier 325ms (cache miss)
+174 silly fetch manifest rework@1.0.1
+175 http fetch GET 200 https://registry.npmjs.org/rework 235ms (cache miss)
+176 silly fetch manifest rework-visit@1.0.0
+177 http fetch GET 200 https://registry.npmjs.org/rework-visit 182ms (cache miss)
+178 silly fetch manifest fibers@>= 3.1.0
