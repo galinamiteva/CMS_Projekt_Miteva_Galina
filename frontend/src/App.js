@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, useLocation } from "react-router-dom";
+
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import Error from './components/Error/Error';
+import Books from './pages/Books/Books';
+import Labels from './pages/Labels/Labels';
+import Movies from "./pages/Movies/Movies";
+import Landing from "./pages/Landing/Landing";
+import All from "./pages/All/All";
 
 function App() {
+  const location = useLocation();
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <Header />
+
+      {location.pathname !== "/" ? <Nav /> : null}
+      <main>
+        <Routes>
+          <Route path="/" element={<Landing/>}/>
+          <Route path="books" element={<Books/>}/>
+          <Route path="labels/:id" element={<Labels/>}/>
+          <Route path="movies" element={<Movies/>}/>
+          <Route path="all" element={<All/>}/>         
+          <Route path="*" element={<Error/>}/>
+
+        </Routes>
+      </main>
+
     </div>
   );
 }
