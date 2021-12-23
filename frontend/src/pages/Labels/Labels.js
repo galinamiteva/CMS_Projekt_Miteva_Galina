@@ -21,7 +21,7 @@ const Labels = () => {
         
     
         fetch(
-          `http://localhost:1337/api/labels/${labelID.id}?populate[0]=books&populate[1]=movies`
+          `http://localhost:1337/api/labels/${labelID.id}?populate=*`
         )
           .then((res) => res.json())
           .then((data) => {
