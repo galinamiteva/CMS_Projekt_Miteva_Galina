@@ -1,2 +1,2 @@
-# CMS_Projekt_Miteva_Galina
+# CMS_Projekt_STRAPI
 Strapi/React Projekt : bibliotek av filmer och böcker
